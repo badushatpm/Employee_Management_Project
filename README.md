@@ -27,3 +27,15 @@ Once `pip` has finished downloading the dependencies:
 (env)$ cd project
 (env)$ python manage.py runserver
 ```
+
+APIs for CRUD:
+
+List or Create
+```sh
+http://127.0.0.1:8000/api/employees/
+```
+
+Delete or Patch
+```sh
+http://127.0.0.1:8000/api/employees/<id>
+```
